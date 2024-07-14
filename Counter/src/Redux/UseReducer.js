@@ -1,8 +1,7 @@
 /* eslint-disable default-case */
 import { DECREMENT, INCREMENT} from './action'
 const initialState = {
-    count : 0,
-
+    count : 0
 }
 
 function UseReducer(state=initialState,action) {
